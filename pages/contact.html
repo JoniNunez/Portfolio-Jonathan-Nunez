@@ -50,7 +50,7 @@
 	</header>
 	<!-- fin header-->
 	<!-- inicio main -->
-	<main>
+	<main class="bg-color-main">
 		<section class="box-contact">
 			<form action="">
 				<label for="Name">Name:</label>
@@ -72,31 +72,22 @@
 	</main>
 	<!--cierre contenido-->
 	<!--apertura footer-->
-	<footer class="bg-color">
-		<div class="logo">
-			<a href="../index.html">
-				<img src="../assets/img/logo.png" alt="website logo">
-			</a>
-		</div>
-		<div class="text">
-			<h3>JONATHAN NUNEZ</h3>
-			<p><b>Freelance video editor</b></p>
-		</div>
-		<div class="rrss">
-			<a class="none-footer" href="https://www.fiverr.com/jonathanenunez?up_rollout=true" target="_blank">
-				<img src="../assets/img/fiverr-logo.png" alt="fiverr logo">
-			</a>
-			<a href="https://wa.me/5493814590744" target="_blank">
-				<img class="wp-img" src="../assets/img/whatsapp-logo.png" alt="whatsapp logo">
-			</a>
-			<a class="none-footer" href="https://www.instagram.com/jonynunez/" target="_blank">
-				<img src="../assets/img/instagram-logo.png" alt="instagram logo">
-			</a>
-			<a class="none-footer" href="mailto:jonathanexequielnunez@gmail.com">
-				<img src="../assets/img/mail-logo.png" alt="mail logo">
-			</a>
-		</div>
-	</footer>
+	<div class="container">
+		<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+			<div class="col-md-4 d-flex align-items-center">
+				<a href="../index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"><img src="../assets/img/logo.png"width="50" height="50" alt="logo video editor">
+				</a>
+				<span class="text-muted">© 2022 Company, Inc</span>
+			</div>
+
+			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+				<li class="ms-3"><a class="text-muted" href="#"><img src="../assets/img/fiverr-logo.png" width="30" height="30" alt="Whatsapp free icon" title="fiverr logo"></a></li>
+				<li class="ms-3"><a class="text-muted" href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="30" height="30" alt="Whatsapp free icon" title="Whatsapp free icon"></a></li>
+				<li class="ms-3"><a class="text-muted" href="#"><img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" width="30" height="30" alt="instagram logo" title="" class="img-small"></a></li>
+				<li class="ms-3"><a class="text-muted" href="#"><img src="../assets/img/mail-logo.png" width="30" height="30" alt="Whatsapp free icon" title="email logo"></a></li>
+			</ul>
+		</footer>
+	</div>
 <!-- script aos -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
