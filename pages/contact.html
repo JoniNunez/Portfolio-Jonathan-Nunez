@@ -4,32 +4,51 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/img/coin32x32.png">
+	<!-- link aos -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- link bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- link mi css -->
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>Video editor - Portfolio</title>
 </head>
 <body class="grid-index">
 	<!--inicio header-->
-	<header class="bg-color">
-		<nav class="nav">
-			<div class="nav-logo">
-				<a href="../index.html">
-				<img src="../assets/img/logo.png" alt="website logo"></a>
+		<header class="bg-color row-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="logo video editor"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shortvideos.html">SHORT VIDEO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="stockvideos.html">STOCK VIDEO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="aboutme.html">ABOUT ME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<ul class="nav-menu">
-				<li><a class="transition-nav" href="../index.html"> HOME </a></li>
-				<li><a class="transition-nav" href="../pages/shortvideos.html">SHORT VIDEOS</a></li>
-				<li><a class="transition-nav" href="../pages/stockvideos.html">STOCK VIDEOS</a></li>
-				<li><a class="transition-nav" href="../pages/aboutme.html">ABOUT ME</a></li>
-				<li><a class="transition-nav"href="#">CONTACT</a></li>
-			</ul>
 		</nav>
+		<!-- inicio encabezado-->
+		<div>
+			<h1 class="encabezado">CONTACT ME</h1>
+		</div>
+		<!-- fin encabezado-->
 	</header>
 	<!-- fin header-->
-	<!-- inicio encabezado-->
-	<div class="encabezado">
-		<h1>CONTACT ME</h1>
-	</div>
-	<!-- fin encabezado-->
 	<!-- inicio main -->
 	<main>
 		<section class="box-contact">
@@ -78,5 +97,12 @@
 			</a>
 		</div>
 	</footer>
+<!-- script aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
