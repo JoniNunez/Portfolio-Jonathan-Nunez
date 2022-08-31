@@ -8,8 +8,8 @@ a{
 p,label{
 	font-family: georgia;
 }
-.bg-color{
-	background-color:;
+.bg-color-main{
+	background-image: url(../assets/img/header.jpg);
 }
 /* GRID INDEX*/
 /* inicio header */
@@ -17,13 +17,49 @@ p,label{
 	width: 90%;
 }
 /* inicio encabezado */
-h1,h2{font-family: bebas;
+.encabezado{
+	background-color: #3C1E7A;
+	font-family: bebas;
 	font-size: 50px;
 	text-align: center;
 	word-spacing: 10px;
-	background-color: #3C1E7A;
-	color: white;}
+	color: white;
+	margin: 0;
+	padding: 0;
+}
 /* fin de encabezado */
 /* inicio main */
+article{
+	height: 500px;
+}
+.box-1-text .text-in-english{
+	background-color: #B520D7;
+}
+.box-1-text .text-in-spanish, .box-1-pages .text-in-spanish{
+	background-color: #B520D7;
+}
+.box-2-text .text-in-english{
+	background-color: darkslateblue;
+}
+.box-2-text .text-in-spanish, .box-1-pages .text-in-english{
+	background-color: darkslateblue;
+}
+.box-3-text .text-in-english{
+	background-color: #B520D7;
+}
+.box-3-text .text-in-spanish{
+	background-color: #B520D7;
+}
 
 /*fin main*/
+@media screen and (max-width: 768px){
+	article {height: auto;}
+	iframe{height: auto; width: auto;}
+	.box-1-img{margin-top: 20px;}
+	.box-1-img img{
+		width: 80%;
+		height: 80%;
+	}
+	.none{ display: none; }
+	.text-in-english{display: none;}
+}
