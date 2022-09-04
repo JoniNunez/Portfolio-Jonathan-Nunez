@@ -18,7 +18,7 @@ p,label{
 	width: 90%;
 }
 /* inicio encabezado */
-.encabezado,h2{
+h1,h2{
 	background-color: #3C1E7A;
 	font-family: bebas;
 	font-size: 50px;
