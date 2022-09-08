@@ -1,5 +1,5 @@
 header{
-    background-color: darkslateblue;
+   
     .width-nav{
         width: 50%;
         a{
@@ -48,11 +48,15 @@ footer{
 }
 /* Media query*/
 @media screen and (max-width: 768px){
-	.main-index section article {height: auto;
-        .text-in-english{
+    div p{font-size: 15px;}
+    h1,h2{font-size: 21px;}
+	.main-index section article {
+        height: auto;
+        .text-in-spanish{
             display: none;
         }
     }
+    .text-in-spanish{display: none;}
 	iframe{height: auto; width: auto;}
 	.box-1-img{
         margin-top: 20px;
@@ -61,6 +65,7 @@ footer{
             height: 80%;
         }
     }
+    .text-in-english,.text-in-spanish{line-height: 1.2;}
 	.none{display: none;}
 	textarea{resize: none;}
     footer{

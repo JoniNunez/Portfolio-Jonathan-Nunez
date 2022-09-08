@@ -1,9 +1,7 @@
-header {
-  background-color: darkslateblue; }
-  header .width-nav {
-    width: 50%; }
-    header .width-nav a {
-      color: white; }
+header .width-nav {
+  width: 50%; }
+  header .width-nav a {
+    color: white; }
 
 .bg-color {
   background-color: darkslateblue; }
@@ -41,10 +39,16 @@ footer {
 
 /* Media query*/
 @media screen and (max-width: 768px) {
+  div p {
+    font-size: 15px; }
+  h1, h2 {
+    font-size: 21px; }
   .main-index section article {
     height: auto; }
-    .main-index section article .text-in-english {
+    .main-index section article .text-in-spanish {
       display: none; }
+  .text-in-spanish {
+    display: none; }
   iframe {
     height: auto;
     width: auto; }
@@ -53,6 +57,8 @@ footer {
     .box-1-img img {
       width: 80%;
       height: 80%; }
+  .text-in-english, .text-in-spanish {
+    line-height: 1.2; }
   .none {
     display: none; }
   textarea {
