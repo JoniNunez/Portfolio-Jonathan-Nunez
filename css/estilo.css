@@ -42,9 +42,9 @@ footer {
 
 /* Media query*/
 @media screen and (max-width: 768px) {
-  main section article {
+  .main-index section article {
     height: auto; }
-    main section article .text-in-english {
+    .main-index section article .text-in-english {
       display: none; }
   iframe {
     height: auto;
