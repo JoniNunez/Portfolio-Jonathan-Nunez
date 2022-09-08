@@ -12,19 +12,21 @@
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>Video editor - Portfolio</title>
 </head>
-<body class="grid-index">
+<body>
 	<!--inicio header-->
-		<header class="bg-color row-fluid">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<!--inicio header-->
+	<header class="bg-color row-fluid">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="logo video editor"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav justify-content-center">
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav width-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="../index.html">HOME</a>
+							<a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="shortvideos.html">SHORT VIDEO</a>
@@ -36,7 +38,7 @@
 							<a class="nav-link" href="aboutme.html">ABOUT ME</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+							<a class="nav-link" href="#">CONTACT</a>
 						</li>
 					</ul>
 				</div>
@@ -53,17 +55,17 @@
 	<main class="bg-color-main">
 		<section class="box-contact input-group">
 			<form action="">
-				<label for="Name">Name:</label>
+				<label for="Name">NAME:</label>
 				<input type="text" name="Name"><br>
-				<label for="Email">Email</label>
+				<label for="Email">EMAIL:</label>
 				<input type="text" name="Email"><br>
-				<label for="videos">Reason for your query</label>
+				<label for="videos">REASON FOR YOUR QUERY</label>
 				<select id="videos" name="videos">
-					<option value="stock">Stock video for Youtube</option>
-					<option value="short">Short video</option>
-					<option value="other">Other</option>
+					<option value="stock">STOCK VIDEO FOR YOUTUBE</option>
+					<option value="short">SHORT VIDEO</option>
+					<option value="other">OTHER</option>
 				</select>
-				<p>Tell me about your project</p>
+				<p>TELL ME ABOUT YOUR PROJECT</p>
 				<textarea name="" id="" cols="30" rows="10"></textarea><br>
 				<input type="submit" value="Send">
 				<input type="reset" value="Reset">
@@ -77,7 +79,7 @@
 			<div class="col-md-4 d-flex align-items-center">
 				<a href="../index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"><img src="../assets/img/logo.png"width="50" height="50" alt="logo video editor">
 				</a>
-				<span class="text-muted">© 2022 Company, Inc</span>
+				<span class="text-muted">© Freelance video editor</span>
 			</div>
 
 			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
