@@ -10,6 +10,8 @@ header{
 .bg-color{
     background-color: darkslateblue;
 }
+body{background-color: darkslateblue;}
+span{color:white;}
 h1,h2{
     background-color: #3C1E7A;
     font-family: Helvetica;
@@ -48,7 +50,7 @@ footer{
 }
 /* Media query*/
 @media screen and (max-width: 768px){
-    div p{font-size: 15px;}
+    div p,form label,form p{font-size: 15px;}
     h1,h2{font-size: 21px;}
 	.main-index section article {
         height: auto;
