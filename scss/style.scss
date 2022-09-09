@@ -1,44 +1,36 @@
-header{
-    .width-nav{
-        width: 50%;
-        a{
-        color: white;
-        }
-    }
-}
-.bg-color{
-    background-color: darkslateblue;
-}
-body{background-color: darkslateblue;}
-span{color:white;}
+@import "colores";
+@import "header";
+body{background-color: $bgPrimario;}
+span{color:$textColor;}
 h1,h2{
-    background-color: #3C1E7A;
+    background-color: $colorPrimario;
     font-family: Helvetica;
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: $textColor;
     margin: 0;
     padding: 0;
 }
 main{
 	background-image: url(../assets/img/header.jpg);
     .box-1-text .text-in-english,.box-1-text .text-in-spanish, .box-1-pages .text-in-spanish,.box-3-text .text-in-english,.box-3-text .text-in-spanish{
-        background-color: #B520D7;
+        background-color: $colorSecundario;
         text-align: center;
         border-radius: 10px;
     }   
-    .box-2-text .text-in-english,.box-2-text .text-in-spanish, .box-1-pages .text-in-english{
-        background-color: darkslateblue;
+    .box-2-text .text-in-english,.box-2-text .text-in-spanish, .box-1-pages .text-in-english,{
+        background-color: $bgPrimario;
         text-align: center;
         border-radius: 10px;
     }
-    p,label{
+    section p,label{
         font-size: 19px;
         font-family: georgia;
-        color: white;
+        color: $texteColor;
         padding: 8px;
     }
 }
+
 .main-index{
     article{
     height: 600px;
