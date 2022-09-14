@@ -6,6 +6,24 @@ header .width-nav {
 .bg-color {
   background-color: darkslateblue; }
 
+.box-1-text, .box-2-text, .box-3-text {
+  color: white;
+  background-color: #B520D7;
+  border-radius: 10px; }
+
+.box-2-text {
+  background-color: darkslateblue; }
+
+.contCarousel {
+  width: 1000px;
+  height: 610px;
+  align-self: center; }
+
+.contCarouselShorts {
+  width: 450px;
+  height: 600px;
+  align-self: center; }
+
 body {
   background-color: darkslateblue; }
 
@@ -23,24 +41,11 @@ h1, h2 {
 
 main {
   background-image: url(../assets/img/header.jpg); }
-  main .box-1-text .text-in-english, main .box-1-text .text-in-spanish, main .box-1-pages .text-in-spanish, main .box-3-text .text-in-english, main .box-3-text .text-in-spanish {
-    background-color: #B520D7;
-    text-align: center;
-    border-radius: 10px; }
-  main .box-2-text .text-in-english, main .box-2-text .text-in-spanish, main .box-1-pages .text-in-english {
-    background-color: darkslateblue;
-    text-align: center;
-    border-radius: 10px; }
   main p, main label {
     font-size: 19px;
     font-family: georgia;
     color: white;
     padding: 8px; }
-
-.box-aboutme .text-in-english {
-  background-color: #B520D7;
-  padding: 5px;
-  text-align: center; }
 
 .main-index article {
   height: 600px; }
@@ -58,8 +63,9 @@ footer {
     height: auto; }
     .main-index section article .text-in-spanish {
       display: none; }
-  .text-in-spanish {
-    display: none; }
+  .contCarousel {
+    width: auto;
+    height: auto; }
   iframe {
     height: auto;
     width: auto; }
@@ -68,7 +74,7 @@ footer {
     .box-1-img img {
       width: 80%;
       height: 80%; }
-  .text-in-english, .text-in-spanish {
+  .box-1-text, .box-2-text, .box-2-text, .box-3-text {
     line-height: 1.2; }
   .none {
     display: none; }

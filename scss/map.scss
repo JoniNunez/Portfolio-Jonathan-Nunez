@@ -1,0 +1,21 @@
+$coloresPrincipales:(
+    colorPrimario: #3C1E7A,
+    colorSecundario: #B520D7,
+    bgPrimario: darkslateblue,
+    textColor: white
+);
+$estilo:(
+    color: white,
+    centro: center,
+    borderRadius: 10px
+);
+
+.box-1-text,.box-3-text{
+    color:map-get($estilo,color);
+    background-color:map-get($coloresPrincipales,colorSecundario);
+    border-radius:map-get($estilo,borderRadius);
+}
+.box-2-text{
+    @extend .box-1-text;
+    background-color: map-get($coloresPrincipales,bgPrimario);
+}

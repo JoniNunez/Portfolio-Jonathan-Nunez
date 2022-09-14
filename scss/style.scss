@@ -1,5 +1,7 @@
 @import "colores";
 @import "header";
+@import "map";
+@import "mixin";
 body{background-color: $bgPrimario;}
 span{color:$textColor;}
 h1,h2{
@@ -13,16 +15,6 @@ h1,h2{
 }
 main{
 	background-image: url(../assets/img/header.jpg);
-    .box-1-text .text-in-english,.box-1-text .text-in-spanish, .box-1-pages .text-in-spanish,.box-3-text .text-in-english,.box-3-text .text-in-spanish{
-        background-color: $colorSecundario;
-        text-align: center;
-        border-radius: 10px;
-    }   
-    .box-2-text .text-in-english,.box-2-text .text-in-spanish, .box-1-pages .text-in-english{
-        background-color: $bgPrimario;
-        text-align: center;
-        border-radius: 10px;
-    }
     p,label{
         font-size: 19px;
         font-family: georgia;
@@ -30,13 +22,6 @@ main{
         padding: 8px;
     }
 }
-.box-aboutme .text-in-english{
-    background-color: $colorSecundario;
-    padding: 5px;
-    text-align: center;
-
-}
-
 .main-index{
     article{
     height: 600px;
@@ -55,7 +40,10 @@ footer{
             display: none;
         }
     }
-    .text-in-spanish{display: none;}
+    .contCarousel{
+        width: auto;
+        height: auto;
+    }
 	iframe{height: auto; width: auto;}
 	.box-1-img{
         margin-top: 20px;
@@ -64,7 +52,7 @@ footer{
             height: 80%;
         }
     }
-    .text-in-english,.text-in-spanish{line-height: 1.2;}
+    .box-1-text,.box-2-text,.box-3-text{line-height: 1.2;}
 	.none{display: none;}
 	textarea{resize: none;}
     footer{

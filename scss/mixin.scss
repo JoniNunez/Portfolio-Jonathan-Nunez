@@ -1,0 +1,11 @@
+@mixin carouselSize($width,$height,$align){
+    width: $width;
+    height: $height;
+    align-self: $align;
+}
+.contCarousel{
+    @include carouselSize(1000px,610px,center)
+}
+.contCarouselShorts{
+    @include carouselSize(450px,600px,center)
+}
