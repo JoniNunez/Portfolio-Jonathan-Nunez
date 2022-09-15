@@ -64,8 +64,10 @@ footer {
     font-size: 15px; }
   h1, h2 {
     font-size: 21px; }
-  .main-index section article, .cards {
+  .main-index section article {
     height: auto; }
+  .main-index .cards {
+    height: 800px; }
   .contCarousel, .contCarouselShorts {
     width: auto;
     height: auto; }
