@@ -41,29 +41,32 @@ h1, h2 {
 
 main {
   background-image: url(../assets/img/header.jpg); }
-  main p, main label {
+  main p, main h5, main label {
     font-size: 19px;
-    font-family: georgia;
     color: white;
     padding: 8px; }
+  main h5 {
+    font-size: 25px;
+    padding: 3px; }
 
 .main-index article {
   height: 600px; }
+
+.main-index .cards {
+  height: 700px; }
 
 footer {
   justify-content: space-between; }
 
 /* Media query*/
 @media screen and (max-width: 768px) {
-  div p, form label, form p {
+  div p, div main h5, main div h5, form label, form p, form main h5, main form h5 {
     font-size: 15px; }
   h1, h2 {
     font-size: 21px; }
   .main-index section article {
     height: auto; }
-    .main-index section article .text-in-spanish {
-      display: none; }
-  .contCarousel {
+  .contCarousel, .contCarouselShorts {
     width: auto;
     height: auto; }
   iframe {

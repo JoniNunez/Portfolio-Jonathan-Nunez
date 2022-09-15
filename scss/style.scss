@@ -17,14 +17,23 @@ main{
 	background-image: url(../assets/img/header.jpg);
     p,label{
         font-size: 19px;
-        font-family: georgia;
         color: $textColor;
         padding: 8px;
+    }
+    h5{
+        @extend p;
+        font-size: 25px;
+        padding: 3px;
     }
 }
 .main-index{
     article{
     height: 600px;
+    }
+}
+.main-index{
+    .cards{
+    height: 700px;
     }
 }
 footer{
@@ -36,11 +45,8 @@ footer{
     h1,h2{font-size: 21px;}
 	.main-index section article {
         height: auto;
-        .text-in-spanish{
-            display: none;
-        }
     }
-    .contCarousel{
+    .contCarousel,.contCarouselShorts{
         width: auto;
         height: auto;
     }
