@@ -41,13 +41,16 @@ h1, h2 {
 
 main {
   background-image: url(../assets/img/header.jpg); }
-  main p, main h5, main label {
+  main p, main h5 {
     font-size: 19px;
     color: white;
     padding: 8px; }
   main h5 {
     font-size: 25px;
     padding: 3px; }
+
+.box-contact {
+  height: 600px; }
 
 .main-index article {
   height: 600px; }
