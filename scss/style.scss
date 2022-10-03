@@ -26,6 +26,16 @@ main{
         padding: 3px;
     }
 }
+.box-2-iframe,.box-3-iframe{
+    border-radius: 15px;
+}
+.transition{
+    width: 580px;
+    transition: 1s;
+}
+.transition:hover{
+    width: 620px;
+}
 .box-contact{
     height: 600px;
 }
