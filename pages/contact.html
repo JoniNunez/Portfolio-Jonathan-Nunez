@@ -58,25 +58,26 @@
 	<main>
 		<section class="container">
 			<article class="box-contact row align-items-center justify-content-center">
-				<form class="col-lg-6 col-10 bg-dark bg-opacity-75" action="">
+				<form class="col-lg-6 col-10 bg-dark bg-opacity-75" action="https://formspree.io/f/mnqrzvpk"
+				method="POST">
 					<div class="form-floating m-2">
-						<input type="text" class="form-control" id="floatingInput" placeholder="NAME">
+						<input type="text" class="form-control" id="floatingInput" placeholder="NAME" name="name">
 						<label for="floatingInput">Name</label>
 					</div>
 					<div class="form-floating m-2">
-						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
 						<label for="floatingInput">Email</label>
 					</div>
 					<div class="form-floating m-2">
-						<select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-							<option value="1">Short Videos</option>
-							<option value="2">Stock Videos</option>
-							<option value="3">Other</option>
+						<select class="form-select" id="floatingSelect" name="select" aria-label="Floating label select example">
+							<option value="Short videos">Short Videos</option>
+							<option value="Stock videos">Stock Videos</option>
+							<option value="Other">Other</option>
 						</select>
 						<label for="floatingSelect">Type of video you need</label>
 					</div>
 					<div class="form-floating m-2">
-						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+						<textarea class="form-control" placeholder="Leave a comment here" name="message" id="floatingTextarea2"
 							style="height: 100px"></textarea>
 						<label for="floatingTextarea2">Comments</label>
 					</div>
