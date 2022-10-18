@@ -124,7 +124,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 
-p {
+p, main h5, main .h5 {
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -4625,14 +4625,15 @@ textarea.form-control-lg {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  /*top: 0;*/
+  /*bottom: 0;*/
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  padding: 0;
+  width: 100px;
+  height: 50px;
+  /*padding: 0;*/
   color: #fff;
   text-align: center;
   background: none;
@@ -7809,16 +7810,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.contCarousel {
-  width: 1000px;
-  height: 610px;
-  align-self: center; }
-
-.contCarouselShorts {
-  width: 450px;
-  height: 600px;
-  align-self: center; }
-
 header .width-nav {
   width: 50%; }
   header .width-nav a {
@@ -7834,3 +7825,95 @@ header .width-nav {
 
 .box-2-text {
   background-color: darkslateblue; }
+
+.contCarousel {
+  width: 1000px;
+  height: 610px;
+  align-self: center; }
+
+.contCarouselShorts {
+  width: 450px;
+  height: 600px;
+  align-self: center; }
+
+body {
+  background-color: darkslateblue; }
+
+span {
+  color: white; }
+
+h1, .h1, h2, .h2 {
+  background-color: #3C1E7A;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+main {
+  background-image: url(../assets/img/header.jpg); }
+  main p, main h5, main .h5 {
+    font-size: 19px;
+    color: white;
+    padding: 8px; }
+  main h5, main .h5 {
+    font-size: 25px;
+    padding: 3px; }
+
+.box-2-iframe, .box-3-iframe {
+  border-radius: 15px; }
+
+.transition {
+  width: 580px;
+  transition: 1s; }
+
+.transition:hover {
+  width: 620px; }
+
+.box-contact {
+  height: 600px; }
+
+.main-index article {
+  height: 600px; }
+
+.main-index .cards {
+  height: 700px; }
+
+footer {
+  justify-content: space-between; }
+
+/* Media query*/
+@media screen and (max-width: 768px) {
+  div p, div main h5, main div h5, div main .h5, main div .h5, form label, form p, form main h5, main form h5, form main .h5, main form .h5 {
+    font-size: 15px; }
+  h1, .h1, h2, .h2 {
+    font-size: 21px; }
+  .main-index section article {
+    height: auto; }
+  .main-index .cards {
+    height: 800px; }
+  .contCarousel, .contCarouselShorts {
+    width: auto;
+    height: auto; }
+  iframe {
+    height: auto;
+    width: auto; }
+  .box-1-img {
+    margin-top: 20px; }
+    .box-1-img img {
+      width: 80%;
+      height: 80%; }
+  .box-1-text, .box-2-text, .box-2-text, .box-3-text {
+    line-height: 1.2; }
+  .none {
+    display: none; }
+  textarea {
+    resize: none; }
+  footer {
+    justify-content: center; }
+    footer li {
+      padding: 10px; }
+      footer li img {
+        width: 40px;
+        height: 40px; } }

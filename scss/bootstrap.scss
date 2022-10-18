@@ -51,7 +51,96 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+// scss anterior
 @import "colores";
-@import "mixin";
 @import "header";
 @import "map";
+@import "mixin";
+
+body{background-color: $bgPrimario;}
+span{color:$textColor;}
+h1,h2{
+    background-color: $colorPrimario;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 50px;
+    color: $textColor;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(../assets/img/header.jpg);
+    p{
+        font-size: 19px;
+        color: $textColor;
+        padding: 8px;
+    }
+    h5{
+        @extend p;
+        font-size: 25px;
+        padding: 3px;
+    }
+}
+.box-2-iframe,.box-3-iframe{
+    border-radius: 15px;
+}
+.transition{
+    width: 580px;
+    transition: 1s;
+}
+.transition:hover{
+    width: 620px;
+}
+.box-contact{
+    height: 600px;
+}
+.main-index{
+    article{
+    height: 600px;
+    }
+}
+.main-index{
+    .cards{
+    height: 700px;
+    }
+}
+footer{
+    justify-content: space-between;
+}
+/* Media query*/
+@media screen and (max-width: 768px){
+    div p,form label,form p{font-size: 15px;}
+    h1,h2{font-size: 21px;}
+	.main-index section article{
+        height: auto;
+    }
+    .main-index .cards{
+        height: 800px;
+    }
+    .contCarousel,.contCarouselShorts{
+        width: auto;
+        height: auto;
+    }
+	iframe,{height: auto; width: auto;}
+	.box-1-img{
+        margin-top: 20px;
+        img{
+            width: 80%;
+            height: 80%;
+        }
+    }
+    .box-1-text,.box-2-text,.box-3-text{line-height: 1.2;}
+	.none{display: none;}
+	textarea{resize: none;}
+    footer{
+        justify-content: center;
+        li{
+            padding: 10px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
