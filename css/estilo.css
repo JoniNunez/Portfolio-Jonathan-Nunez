@@ -7920,6 +7920,21 @@ main {
 footer {
   justify-content: space-between; }
 
+  /* slider */
+.slider{
+  height: 200px;
+}
+.slider .sliderItem{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  transition: .5s;
+}
+
+.slider .sliderItem:hover{
+  width: 160px;
+  height: 160px;
+}
 
 /* Media query*/
 @media screen and (max-width: 768px) {
@@ -7957,8 +7972,16 @@ footer {
       footer li img {
         width: 40px;
         height: 40px; }
+.slider{
+  height: 160px;
+}
+.slider .sliderItem{
+  width: 100px;
+  height: 100px;
+}
   main{
     background-image: url(../assets/img/header3.jpg) ,  url(../assets/img/headerprueba.jpg);
   background-position: left top , bottom;
   background-repeat: no-repeat , no-repeat;
   } }
+  
