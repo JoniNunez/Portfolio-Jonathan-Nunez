@@ -7876,10 +7876,10 @@ h1, .h1, h2, .h2 {
   padding: 0; }
 
 main {
-  background-image:url(../assets/img/header2.jpg) , url(../assets/img/header3.jpg) ,  url(../assets/img/headerprueba.jpg);
-  background-position: bottom, top , center;
-  background-repeat: no-repeat , no-repeat , no-repeat;
-}
+  background-image:url(../assets/img/header2.png) , url(../assets/img/header3.png) ;
+  background-position: bottom, top ;
+  background-repeat: no-repeat , no-repeat ;
+} 
   main p, main h5, main .h5 {
     font-size: 19px;
     color: white;
@@ -7898,6 +7898,16 @@ main {
 .transition:hover {
   width: 620px; }
 
+.clienteslogos{
+  height: 210px;
+}
+.clientes div div img{
+  width: 200px;
+  transition: 1s;
+}
+.clientes div div img:hover{
+  width: 230px;
+}
 .box-contact {
   height: 600px; }
 
@@ -7910,6 +7920,7 @@ main {
 footer {
   justify-content: space-between; }
 
+
 /* Media query*/
 @media screen and (max-width: 768px) {
   div p, div main h5, main div h5, div main .h5, main div .h5, form label, form p, form main h5, main form h5, form main .h5, main form .h5 {
@@ -7920,11 +7931,11 @@ footer {
     height: auto; }
   .main-index .cards {
     height: 800px; }
-  .contCarouselShorts {
-    width: 300px;
-    height: 500px; }
-  .carousel {
+  .contCarousel {
+    width: 400px;
     height: 300px; }
+  .carousel {
+    height: auto; }
   iframe {
     height: 250px;
     width: auto; }
