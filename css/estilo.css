@@ -7975,13 +7975,16 @@ footer {
 .slider{
   height: 160px;
 }
+.clientes{
+  display: none;
+}
 .slider .sliderItem{
   width: 100px;
   height: 100px;
 }
-  main{
-    background-image: url(../assets/img/header3.jpg) ,  url(../assets/img/headerprueba.jpg);
-  background-position: left top , bottom;
-  background-repeat: no-repeat , no-repeat;
-  } }
+main {
+  background-image:url(../assets/img/header3.png), url(../assets/img/header2.png) ;
+  background-repeat: repeat, no-repeat;
+  background-position: top, bottom;
+}  }
   
