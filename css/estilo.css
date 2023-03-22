@@ -7847,6 +7847,16 @@ header .width-nav {
   background-color: #B520D7;
   border-radius: 10px; }
 
+.bg-seller{
+  background-color: #0ab72b;
+  border-radius: 10px;
+  height:500px;
+  width: 700PX;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 50px;
+}
+
 .box-2-text {
   background-color: darkslateblue; }
 
@@ -7915,7 +7925,7 @@ main {
   height: 600px; }
 
 .main-index .cards {
-  height: 700px; }
+  height: 650px; }
 
 footer {
   justify-content: space-between; }
